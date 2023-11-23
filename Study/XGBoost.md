@@ -47,7 +47,7 @@
     - 일반적으로 0.01 ~ 0.3 정도로 설정하는데, 제한된 리소스를 가진 기계에 모델을 올려야 할 경우 Step 수를 줄이기 위해 0.9까지 올려 모델 크기를 최소화한 적도 있다. 일반적인 상황이라면 권장하지 않는다.
 - gamma [alias: min_split_loss]
     - 기본값 : 0 / 범위 : [0,∞]
-    - [이전 글에서](https://dining-developer.tistory.com/3) 언급한 gain 값이 gamma 이상일 경우 자식 노드를 생성하도록 한다.
+    - gain 값이 gamma 이상일 경우 자식 노드를 생성하도록 한다.
     - Overfitting 방지에 좋으나 너무 높으면 underfitting 이 생길 수가 있음.
     - lambda, alpha 값에도 영향을 받기 때문에, 파라미터 튜닝 시 세 가지를 동시에 바꿔가며 grid search를 하는 편
 - max_depth
