@@ -19,7 +19,7 @@
 ## AIFFEL Campus Online Code Peer Review
 
 - Coder : 이슬, 최강훈
-- Reviewr : 한현종
+- Reviewr : 김민기
 
 
 # PRT(Peer Review Template)
@@ -37,7 +37,7 @@
     - 주석을 보고 코드 이해가 잘 되었는지 확인
         - 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부합니다.
 
-         ![image](https://github.com/seulwithlove/aiffel_core_7th/assets/149549379/4f934d0f-c46d-40e8-8db8-f71a58ee69c8)
+         
 
 
         
@@ -55,7 +55,7 @@
     - 전체 코드 실행 플로우를 그래프로 그려서 이해를 돕고 있는지 확인
         - 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부합니다.
 
-          ![image](https://github.com/seulwithlove/aiffel_core_7th/assets/149549379/311fc36b-8efe-4886-aa52-7c8fed665543)
+          
 
         
 - [X]  **5. 코드가 간결하고 효율적인가요?**
@@ -64,7 +64,7 @@
     - 코드 중복을 최소화하고 범용적으로 사용할 수 있도록 함수화했는지
         - 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부합니다.
 
-          ![image](https://github.com/seulwithlove/aiffel_core_7th/assets/149549379/c0ea79b8-9dfc-490b-b4d6-95f42c0ca0bd)
+          
 
 
 
