@@ -1,16 +1,27 @@
-# untitled
+# Weather App 만들기
 
-A new Flutter project.
+https://github.com/choikanghoon/Aiffel_study/assets/149554171/90f89e0e-ec91-4bd4-8fb2-22a7f78742fb
 
-## Getting Started
+## 소개
+이번 아이펠톤 프로젝트 아이디어를 구상할 때 생각했던 요소가 날씨 데이터를 사용하는 것 이였고, 한국의 기상청 API를 쓰진 않았지만 외국의 openWeater 라는 곳의 api를 사용하여 제작하였습니다.
+JSON 타입의 data를 받아와서 UI를 배치하여, 자동으로 사용자의 Location(지역)을 받아서, 위치, 날짜 및 시간, 온도, 구름량, 대기질지수, 미세먼지, 초미세먼지를 제공해줍니다.
+다른 사람들처럼 model을 사용하지 않았지만, json타입의 파일을 받아서 정상적으로 사용할 수 있는것이 미래의 프로젝트를 할때 도움이 된다고 생각하여 선정하였습니다.
 
-This project is a starting point for a Flutter application.
+## 참고
+저는 코딩셰프라는 사람의 유튜브를 참고하여 동일하게 제작 하였으나, null-safety 관련하여 저와 버전이 맞지 않는 것들이 많아서 수정하는 부분들이 많이 있었습니다.
+또한, 하나하나 설명이 첨삭 되어 있고, 댓글로 수정사항 및 이야기들이 많이 진행 되어 학습하는데에 많이 도움 되었습니다. 
+[코딩셰프](https://www.youtube.com/@codingchef)
 
-A few resources to get you started if this is your first Flutter project:
+## 회고
+제가 학습을 소홀히 했다는 것을 많이 느낍니다!
+데이터 하나 받아와서 UI를 배치하여 제공하는 것만으로도 이렇게 많은 시간이 소요 되고, 코딩이 복잡할 줄은 몰랐습니다.
+또한 null value 로 인한 오류 때문에 코드를 따라하더라도 찾으면서 수정해야 하는 부분도 많았었습니다.
+클론코딩, 쉐도우 코딩을 진행하였지만, 미래의 필요했던 부분을 사용하는 것에 대해 학습이 가능했고, 버전으로 인한 수정사항들이 많아져서
+버전에 대한 호환성 및 대처를 해야 한다는 것도 배웠습니다.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- K
+    - 딱히 잘한 것은 이번에는 없는 것 같습니다.
+- P
+    - 다른 dart 파일에서 widget을 불러오거나 data를 불러올 때, null value인지 아닌지 분류가 안되기 때문에 loading.dart에서 계속 오류가 발생하였음
+- T
+    - sdk, jdk, package 등의 호환문제로 null safety오류로 인한 문제였고, 각각에 맞게 널 허용으로 바꿔주거나 return 값을 Contaier로 주는 등으로 대처하였다.
