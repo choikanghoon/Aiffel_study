@@ -35,3 +35,9 @@ JSON 타입의 data를 받아와서 UI를 배치하여, 자동으로 사용자�
     - 다른 dart 파일에서 widget을 불러오거나 data를 불러올 때, null value인지 아닌지 분류가 안되기 때문에 loading.dart에서 계속 오류가 발생하였음
 - T
     - sdk, jdk, package 등의 호환문제로 null safety오류로 인한 문제였고, 각각에 맞게 널 허용으로 바꿔주거나 return 값을 Contaier로 주는 등으로 대처하였다.
+ 
+---
+나중에 디벨롭 할 것
+
+1. loading 창을 부드럽게 제작하고, UI 배치를 다시 구성하고 싶습니다.
+2. 기상청 API를 사용해보고 싶습니다.
